@@ -1,0 +1,204 @@
+body{
+	/*background-image: url('background3.jpg');*/
+	background-color: #2F2FA2;
+	background-size: 100% 100%;
+	background-repeat: no-repeat;
+	font-size: 18px;
+	/*background-color: #2F2FA2;*/
+}
+/*.photo{
+	float: left;
+	margin-top: 50px;
+	padding-top: 10px;
+	padding-left: 10vw;
+}*/
+.photo img{
+	border-radius: 50%;
+}
+/*.shortDescription{
+	background-color: #2F2FA2;
+	color: white;
+	margin-top: 100px;
+	padding-top: 10px;
+	padding-right: 10vw;
+	float: right;
+	width: 200px;
+	font-family: monospace;
+	font-size: 2vw;
+}*/
+.shortDescription{
+	padding-top: 30px;
+	font-size: 20px;
+	font-family: monospace;
+	color: white;
+}
+.selfDescription{
+	margin-top: 5px;
+	padding-bottom: 20px;
+	color: gainsboro;
+	font-family: cursive;
+	padding-top: 50px;
+	float: right;
+	width: 300px;
+}
+.navOptions{
+	display: flex;
+	/*background-color: yellowgreen;*/
+	height: 50px;
+	justify-content: center;
+	align-items: center;
+	font-family: sans-serif;
+}
+.navOptions ul{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.navOptions ul li{
+	text-decoration: none;
+	display: inline;
+	list-style: none;
+}
+.navOptions ul a{
+	text-decoration: none;
+	color: white;
+	padding: 1.3rem 1.3rem;
+	font-size: 20px;
+}
+.navOptions ul a:hover{
+	height: 50px;
+	background-color: lightseagreen;
+	/*background-color: blue;*/
+	color: white;
+	border-radius: 20%;
+}
+.navOpSelected{
+	height: 50px;
+	/*background-color: #F64C72;*/
+	background-color: forestgreen;
+	color: white;
+	border-radius: 20%;	
+}
+.columns{
+	margin-top: 70px;
+	display: grid;
+	grid-column-gap: 30px;
+	grid-template-columns: auto auto auto;
+	/*background-color: white;*/
+	/*padding: 5px;*/
+}
+.columnItem{
+	height: 250px;
+	/*background-color: gainsboro;*/
+	/*border: 1px solid gainsboro;*/
+	font-size: 15px;
+	text-align: center;
+}
+.proLanIcons{
+	margin-top: 150px;
+	margin-left: 50px;
+	height: 60px;
+	width: 310px;
+	float: left;
+	background-color: forestgreen;
+	border-radius: 10%;
+}
+.proLanIcons img{
+	padding-left: 10px;
+	padding-top: 10px;
+	float: left;
+	height: 40px;
+	width: 40px;
+}
+
+/*About Me*/
+.aboutOptions{
+	float: left;
+}
+.aboutOptions h2{
+	color: forestgreen;
+}
+.aboutOptions li{
+	list-style: none;
+	color: white;
+}
+.aboutOptions b{
+	color: lightseagreen;
+}
+.myPhotos{
+	text-align: center;
+	align-items: center;
+}
+.myPhotos img{
+	height: 200px;
+	width: 200px;
+
+}
+
+/*Contact*/
+input[type=text], select{
+	width: 50%;
+	padding: 5px 10px;
+	margin: 2px 0;
+	display: block;
+	border: 1px solid #ccc;
+	border-radius: 4px;
+	box-sizing: border-box;
+}
+label{
+	color: lightseagreen;
+}
+input[type=submit] {
+  width: 100%;
+  background-color: forestgreen;
+  /*background-color: #04AA6D;*/
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+input[type=submit]:hover {
+  background-color: #45a049;
+}
+.socialMediaButtons{
+	text-align: center;
+}
+.fa {
+  padding: 20px;
+  font-size: 30px;
+  width: 30px;
+  text-align: center;
+  text-decoration: none;
+  margin: 5px 2px;
+  border-radius: 50%;
+}
+
+.fa:hover {
+    opacity: 0.7;
+}
+
+.fa-facebook {
+  background: #3B5998;
+  color: white;
+}
+
+.fa-twitter {
+  background: #55ACEE;
+  color: white;
+}
+.fa-linkedin {
+  background: #007bb5;
+  color: white;
+}
+.fa-youtube {
+  background: #bb0000;
+  color: white;
+}
+
+.fa-instagram {
+  background: #125688;
+  color: white;
+}
